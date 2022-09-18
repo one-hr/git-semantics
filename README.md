@@ -1,2 +1,5 @@
 # git-semantics
-Making 啊 
+
+1. branch name
+
+2. commit message
