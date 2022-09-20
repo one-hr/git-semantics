@@ -2,6 +2,7 @@
 
 1. Branch Naming Rules:
 正規表現: ^(chore|docs|feat|fix|merge|perf|refact|refactor|style|test|wip)\/.*
+
 example:
 fix/SC_SAAS-XXXXXX日本語
 
