@@ -43,5 +43,5 @@ for example, `git-nb` extension:
 
 ### nb
 
-a simple git plugin to remove `space` in branch name when creating new branch.
+a simple git plugin replace `space` with `-` in branch name when creating new branch.
 
