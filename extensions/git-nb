@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# remove white space in branch name when checkouting new branch.
+
+echo "${@:2}"
+
+BRANCH_NAME=`echo ${@:1} | sed "s/ /-/g"`
+git checkout -b ${BRANCH_NAME}
+
+
+
