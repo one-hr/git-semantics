@@ -1,6 +1,6 @@
-# git-semantics
+# git-tools
 
-## git branch & commit Message checker
+## git semantics checker
 
 ### Install
 
