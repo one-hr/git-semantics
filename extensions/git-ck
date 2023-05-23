@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# checkout branch by keyword.
+
+keyword=$1
+branches=$(git branch --all | sed -E 's/^[[:space:]]*|\s*$//g' | grep "$keyword" | grep -vE '^\*|\(')
+
+if [[ -n "$branches" ]]; then
+  for branch in $branches; do
+    git checkout "$branch"
+    if [[ $? -eq 0 ]]; then
+      break
+    fi
+  done
+else
+  echo "No branches found matching the keyword '$keyword'."
+fi
