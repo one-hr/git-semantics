@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# remove white space in branch name when checkouting new branch.
+# remove white space in branch name when checkout new branch.
 
 echo "${@:2}"
 
